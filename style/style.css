@@ -1,0 +1,125 @@
+body {
+    background: rgb(83, 58, 180);
+    background: linear-gradient(326deg, rgba(83, 58, 180, 1) 0%, rgba(253, 117, 29, 1) 0%, rgba(252, 69, 225, 1) 100%);
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 75%;
+    height: auto;
+    border: 2px solid black;
+    background-color: black;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow: 5px 10px 50px #f0e2e2;
+    z-index: -1;
+}
+
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.picker {
+    display: flex;
+    justify-content: center;
+}
+
+.session{
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.day {
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+    flex: 30%;
+    color: white;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+    justify-content: space-around;
+    color: white;
+}
+
+.clock-content {
+    font-size: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.date {
+    margin-left: 3rem;
+}
+
+.h-title {
+    padding-left: 2.5rem;
+}
+
+.titles {
+    padding: .8rem .5rem;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-group {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.set-btn {
+    border: 1px solid black;
+    padding: .8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.set-btn:hover {
+    border: 1px solid white;
+    padding: .8rem;
+    transition: ease-in .2s;
+    color: white;
+    background-color: black;
+}
+
+.rest-btn {
+    color: white;
+    border: 1px solid white;
+    padding: .8rem;
+    background-color: rgb(3, 3, 3);
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.rest-btn:hover {
+    transition: ease-in .2s;
+    color: rgb(2, 2, 2);
+    border: 1px solid white;
+    padding: .8rem;
+    background-color: rgb(253, 253, 253);
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+
+}
